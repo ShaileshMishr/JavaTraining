@@ -7,16 +7,16 @@ public class EmployeeTest {
 
      //   Scanner sc = new Scanner(System.in);
 
-        Employee e1 = new Employee();
-        Employee e2 = new Employee();
-        Employee e3 = new Employee();
-        Employee e4 = new Employee();
+        Employee1 e1 = new Employee1();
+//        Employee e2 = new Employee();
+//        Employee e3 = new Employee();
+//        Employee e4 = new Employee();
 
         e1.setEmpId(101);
         e1.setEmpName("Shailesh");
         e1.setDesignation("Developer");
         e1.setHoursWorked(9);
-       // e1.setSalary1();
+        e1.setSalary1();
 
         System.out.println(e1);
 //        System.out.println("Enter Developer's Salary:");
