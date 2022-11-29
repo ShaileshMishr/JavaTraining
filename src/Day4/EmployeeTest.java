@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class EmployeeTest {
     public static void main(String[] main) {
 
+
         Scanner sc = new Scanner(System.in);
        Employee[] emp = new Employee[5];
 
@@ -23,7 +24,8 @@ public class EmployeeTest {
             emp[i] = new Employee(empId,empName,age);
         }
 
-        int Avgage = ((emp[0].getEmpAge()+emp[1].getEmpAge()+emp[2].getEmpAge()+emp[3].getEmpAge()+emp[4].getEmpAge())/5);
+       int Avgage = ((emp[0].getEmpAge()+emp[1].getEmpAge()+emp[2].getEmpAge()+emp[3].getEmpAge()+emp[4].getEmpAge())/5);
+
         System.out.println("Avg age of employee is :"+Avgage);
 
     }
