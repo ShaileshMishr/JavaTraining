@@ -9,6 +9,7 @@ public class Student {
 
     static String collegeName;
 
+
     public String getStudName() {
         return studName;
     }
