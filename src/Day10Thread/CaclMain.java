@@ -5,9 +5,9 @@ public class CaclMain {
     public static void main(String[] args) throws InterruptedException {
 
         Calculation c1 = new Calculation("FIRST");
-       c1.t.join();
+        c1.t.join();
         Calculation c2 = new Calculation("SECOND");
-       c2.t.join();
+        c2.t.join();
 
 
         try {
