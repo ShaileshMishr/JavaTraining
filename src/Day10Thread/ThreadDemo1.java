@@ -5,6 +5,7 @@ public class ThreadDemo1 implements Runnable{
     Thread t;
     ThreadDemo1(){
         t = new Thread(this,"Demo1");  // New Thread is born
+        t.setPriority(Thread.MAX_PRIORITY);
         System.out.println("Child thread: "+t);
         t.start();  // Thread is in Runnable state
 
