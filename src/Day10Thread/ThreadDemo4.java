@@ -5,7 +5,6 @@
 
 package JavaBasics.src.Day10Thread;
 import java.util.Random;
-import java.util.Scanner;
 public class ThreadDemo4 implements Runnable {
 
     String Result;
